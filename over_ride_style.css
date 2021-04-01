@@ -1,0 +1,17 @@
+.animation-1 { transition: all .2s ease-in-out; }
+.animation-1:hover { transform: scale(1.1); }
+
+p > strong{
+font-family: Aerial;
+color: black;
+}
+
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+.section-label{
+  font-weight: 15em;
+}
