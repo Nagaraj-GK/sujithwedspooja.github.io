@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1.125rem;
+    font-family: 'Lato', sans-serif;
+    color: #707070;
+}
+
+/* Typo */
+
+h1{
+    /* border: 1px solid purple; */
+    font-size: 3rem;
+    color: #212614;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+h1 span{
+    color: #b7832f;
+}
+
+p{
+    margin-top: 0;
+}
+
+a{
+    color: #707070;
+}
+
+/* Layout */
+
+.container{
+    /* border: 1px solid purple; */
+    max-width: 980px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.columns{
+    /* border: 1px solid purple; */
+    display: flex;
+    margin-bottom: 1em;
+    justify-content: space-between;
+}  
+
+img{
+    max-width: 100%;
+    margin-bottom: 1em;
+}
+
+.col-4{
+    flex-basis: 71%;
+}
+
+.col-5{
+    flex-basis: 23%;
+}
+
+.col-bg-rhs{
+    background-color: #212614;
+    color: #fff;
+    padding: 1em;
+}
+
+.col-1{
+    flex-basis: 23%;
+}
+
+.col-2{
+    flex-basis: 48%;
+}
+
+.col-3{
+    flex-basis: 23%;
+}
+
+@media (max-width: 650px){
+    .columns{
+        /* border: 1px solid purple; */
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1em;
+        justify-content: space-between;
+    }
+    
+    h1{
+        font-size: 2rem;
+    }
+
+    h2{
+        font-size: 1.2rem;
+    }
+
+    p{
+        font-size: 0.95rem;
+    }
+
+    img{
+        margin-bottom: 0;
+    }
+}
+

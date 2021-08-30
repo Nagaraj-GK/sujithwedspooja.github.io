@@ -1,0 +1,46 @@
+This is the notes for FreeCodeCamp.org responsive web development CSS tutorials.
+
+CSS units
+
+Absolute units
+    Pixels
+    pt, cm, mm, in, etc
+
+Relative units
+    Relative to font-size - em, rem
+    Relative to view-port - vh, vw
+
+Percentages
+    Its mainly for the width
+
+Percentages
+    They add responsiveness in the website (ex. container class)
+
+Images(img)
+    Never give width and height property. Provide only one.
+
+'em' units
+    Relative to parent font-size
+
+'rem' units
+    Root em - html element font-size as reference
+
+General rule of thumb:
+    font-size: rem
+    padding, margin: em
+    width: em, Percentages, Pixels
+
+Flexbox
+    Always plan your layout
+
+Media queries
+    Widths : @media (min-width: 600px){...}
+    orientation : @media (orientation: landscape){...}
+    specific features : @media (hover){...}
+
+    @media screen and (min-width: 600px){...}
+
+
+
+
+

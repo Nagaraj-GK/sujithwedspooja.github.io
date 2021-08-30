@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    color: #2e354f;
+}
+
+img{
+    width: 100%;
+}
+
+h2{
+    color: orange;
+}
+
+ul{
+    font-size: 1em;
+}
+/* Layout */
+
+header {
+    background: #2e354f;
+    padding: 45px 0;
+    color: #fff;
+}
+
+section {
+    padding: 45px 0;
+}
+
+.container{
+    width: 90%;
+    max-width: 720px;
+    margin: 0 auto;
+    /* border: 2px solid magenta; */
+}
+
+.section-two{
+    background: #2e354f;
+    color: #fff;
+}
