@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    color: #707070;
+}
+
+nav h2{
+    color: #143774;
+    padding: 0;
+    margin: 0;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+nav p{
+    color: #1792D2;
+    padding: 0;
+    margin: 0;
+    font-size: 0.70rem;
+    text-align: center;
+    margin-bottom: 1.2em;
+    font-weight: bold;
+}
+
+nav a{
+    text-decoration: none;
+    color: #707070;
+    font-weight: 700;
+}
+
+nav a:hover, nav a:focus{
+    color: #1792D2;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav li{
+    margin-left: 2em;
+}
+
+/* Layout */
+
+nav{
+    background-color: #f8f8f8;
+    padding: 20px 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 95%;
+    /* border: 1px pink solid; */
+}
+
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+
+.active-page{
+    border-bottom: 2px solid #707070;
+}
+
+.active-page:hover{
+    color: #707070;
+}
+
+@media (max-width: 650px){
+    nav{
+        background-color: #f8f8f8;
+        padding: 15px 0 0 0;
+    }
+    .container-nav{
+        display: flex;
+        flex-direction: column;
+    }
+    nav li{
+        margin: 0 1em;
+    }
+    nav h2{
+        font-size: 1.2rem;
+    }    
+    nav p{
+        font-size: 0.55rem;
+        margin-bottom: 0.3em;
+    }
+    nav a{
+        font-size: 14px;
+    }
+}
+
+/* ---------Body------- */
+
+/* Typography */
+
+.article-title{
+    font-weight: 400;
+}
+
+/* Typography ends */
+
+img{
+    width: 100%;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    flex-basis: 73%;
+}
+
+aside{
+    flex-basis: 23%;
+}
+
+.article-recent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-recent-main{
+    flex-basis: 73%;
+    order: 2;
+}
+
+.article-recent-secondary{
+    flex-basis: 23%;
+    order: 1;
+}
+
+.sidebar-widget{
+    border: #f8f8f8 15px solid;
+    padding: 15px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+h2{
+    padding: 0;
+    margin: 0;
+}
