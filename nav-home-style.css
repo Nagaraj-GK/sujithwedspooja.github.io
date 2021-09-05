@@ -229,7 +229,7 @@ footer p {
 
 .article-featured .article-image{
     width: 100%;
-    height: 325px;
+    height: 350px;
     object-fit: cover;
     object-position: top;
 }
@@ -265,6 +265,10 @@ footer p {
 .no-border{
     border-bottom: none;
     padding-bottom: 0em;
+}
+
+footer{
+    padding: 20px;
 }
 
 @media(max-width: 650px){
